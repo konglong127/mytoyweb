@@ -1,0 +1,57 @@
+{
+  "name": "mytoyweb",
+  "version": "0.0.1",
+  "main": "./dist/app.js",
+  "types": "./dist/types",
+  "scripts": {
+    "example": "nodemon --exec ts-node --watch ./**/* ./example/test.ts",
+    "example1": "nodemon --exec ts-node --watch ./**/* ./example/test1.ts",
+    "example2": "nodemon --exec ts-node --watch ./**/* ./example/test2.ts",
+    "test": "mocha test/*.ts"
+  },
+  "description": "An easy, light, and fast web framework",
+  "keywords": [
+    "mytoyweb",
+    "mytoy",
+    "web",
+    "webserver",
+    "framework",
+    "web framework",
+    "back-end"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konglong127/koa-log-writer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/konglong127/koa-log-writer/issues"
+  },
+  "homepage": "https://github.com/konglong127/koa-log-writer#readme",
+  "mocha": {
+    "require": [
+      "ts-node/register",
+      "tsconfig-paths/register"
+    ],
+    "ui": "bdd"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.10",
+    "@types/inflation": "^2.0.1",
+    "@types/jest": "^29.5.8",
+    "@types/mocha": "^10.0.4",
+    "@types/node": "^20.5.0",
+    "@types/supertest": "^2.0.16",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "reflect-metadata": "^0.1.13",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "inflation": "^2.0.0",
+    "raw-body": "^2.5.2"
+  }
+}

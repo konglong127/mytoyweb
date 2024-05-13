@@ -1,0 +1,9 @@
+src/
+test/
+public/
+example/
+dist/test
+dist/example
+dist/route
+tsconfig.json
+.eslintrc.js
