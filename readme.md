@@ -5,7 +5,7 @@ web framework
 ## Installation
 
 ```
-$ npm install mytoyweb
+$ npm install toyweb
 ```
 
 ## Example 1
